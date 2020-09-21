@@ -10,4 +10,13 @@ export class ContaCorrente extends Conta {
         super(saldoInicial, cliente, agencia)
         ContaCorrente.numeroDeContas += 1;
     }
+
+    sacar(valor){
+        let taxa = 1.1;
+        const valorSacado = taxa * valor;
+        if(this._saldo >= valorSacado){
+            this._saldo -= valorSacado;
+            return valorSacado;
+        }
+    }
 }
