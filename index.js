@@ -35,6 +35,10 @@ console.log(conta2);
 //const valorDepositado = contaCorrenteCliente1.depositar(50);
 //const valorSacado = contaCorrenteCliente1.sacar(30);
 
+console.log(conta2.saldo);
+
+console.log(conta2.cliente);
+
 console.log(contaCorrenteCliente1);
 
 
