@@ -1,5 +1,11 @@
+/* 
+ser autenticavel significa ter a propriedade "senha"
+
+duck typing => ducky type
+*/
+
 export class SistemaAutenticacao {
-    static login(funcionario, senha){
-        return funcionario.senha == senha;
+    static login(autenticavel, senha){
+        return autenticavel.autenticar(senha);
     }
 }
