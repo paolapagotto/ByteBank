@@ -1,5 +1,3 @@
-import { Cliente } from './Cliente.js';
-
 //Classe Abstrata
 export class Conta {
 
